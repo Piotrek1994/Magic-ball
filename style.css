@@ -82,29 +82,31 @@ body {
 }
 
 .shake-animation {
-    animation: shake 1s 1;
+    animation: shake 1s alternate-reverse ease-in-out;
 }
 
 @keyframes shake {
     0% {
-        left: 290px;
+        left: 0px;
     }
-    20% {
-        left: 340px;
+    16% {
+        left: 20px;
     }
-    40% {
-        left: 290px;
+    32% {
+        left: 0px;
     }
-    60% {
-        left: 340px;
+    48% {
+        left: 20px;
+    }
+    64% {
+        left: 0px;
     }
     80% {
-        left: 290px;
+        left: 20px;
     }
     100% {
-        left: 300px;
+        left: 0px;
     }
 }
-
 
 
